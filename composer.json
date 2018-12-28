@@ -14,7 +14,6 @@
     "require": {
         "php": ">=7.0.0",
         "encore/laravel-admin": "~1.6",
-        "mews/captcha": "^2.2",
     },
     "require-dev": {
         "phpunit/phpunit": "~6.0"
@@ -28,11 +27,6 @@
         "laravel": {
             "providers": [
                 "Encore\\James\\JamesServiceProvider",
-                "Mews\\Captcha\\CaptchaServiceProvider",
-            ],
-            "aliases": [
-                "Captcha" : "Mews\\Captcha\\Facades\\Captcha::class",
-
             ]
         }
     }
